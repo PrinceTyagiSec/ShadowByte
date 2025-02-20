@@ -1,0 +1,13 @@
+Pillow
+argparse
+base64
+concurrent.futures
+tqdm
+hashlib
+chardet
+os
+threading
+logging
+stegano
+cryptography
+json
