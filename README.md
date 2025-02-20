@@ -14,7 +14,7 @@ ShadowByte is an advanced Python-based steganography tool designed for securely 
 
 ### Clone the Repository  
 ```bash
-git clone https://github.com/your-username/shadowbyte.git  
+git clone  https://github.com/prince2313/ShadowByte.git
 cd shadowbyte  
 ```
 
@@ -131,8 +131,7 @@ We tested brute force using the 100-worst-passwords wordlist. The results show t
 | **.mp4 File**   | **24:31 minutes** |  
 | **.png File**   | **23:18 minutes** |  
 
-🚨 **Disclaimer:** ShadowByte **supports all file types** as hidden data, but **brute-force attacks are extremely slow**, as seen in test results. Using a strong password is highly recommended for secure encoding.  
-Every file used in the test results is available in the test folder of the repository.
+📝 **Note:** Brute-force time depends on system specs, wordlist size, and hidden file size. Larger files significantly increase cracking time.  
 
 ---
 
@@ -149,9 +148,8 @@ Every file used in the test results is available in the test folder of the repos
 - `os`
 - `threading`
 - `logging`
-- `stegno`
+- `stegano`
 - `json`
-- `cryptography`
 
 Install dependencies using:  
 ```bash
@@ -162,3 +160,4 @@ pip install -r requirements.txt
 **ShadowByte** is intended for **educational and ethical** purposes only. Do not use it for illegal activities.  
 
 📜 **License**: MIT License © 2025 **Prince Tyagi**  
+👤 **Creator**: [GitHub](https://github.com/prince2313) | [LinkedIn](https://www.linkedin.com/in/prince-tyagi1/)  
