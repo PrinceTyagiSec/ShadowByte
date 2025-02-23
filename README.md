@@ -15,7 +15,7 @@ ShadowByte is an advanced Python-based steganography tool designed for securely 
 ### Clone the Repository  
 ```bash
 git clone  https://github.com/prince2313/ShadowByte.git
-cd shadowbyte  
+cd ShadowByte  
 ```
 
 ### Install Dependencies  
