@@ -19,7 +19,7 @@ cd ShadowByte
 ```
 
 ### Install Dependencies  
-Ensure Python 3.x is installed, then install the required dependencies:  
+Ensure Python 3.8+ is installed, then install the required dependencies:  
 ```bash
 pip install -r requirements.txt
 ```
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 Run the following command to see available options:  
 ```bash
-python main.py -h
+python ShadowByte.py -h
 ```
 ```
 PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\ShadowByte> python .\ShadowByte.py -h
@@ -67,7 +67,7 @@ options:
 ```
 Example Usage:
 ```bash
-python main.py encode --key "my_secure_key" --data "secret.txt" --output "hidden.png" image.png
+python ShadowByte.py encode --key "my_secure_key" --data "secret.txt" --output "hidden.png" image.png
 ```
 This encrypts `secret.txt` and embeds it in `image.png`, saving the output as `hidden.png`.  
 
@@ -102,7 +102,7 @@ python ShadowByte.py bruteforce -h
 ```
 ```
 PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\ShadowByte> python .\ShadowByte.py bruteforce -h
-usage: main.py bruteforce [-h] --wordlist WORDLIST image_path
+usage: ShadowByte.py bruteforce [-h] --wordlist WORDLIST image_path
 
 positional arguments:
   image_path           Path to the encoded image
