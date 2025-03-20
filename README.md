@@ -14,7 +14,7 @@ ShadowByte is an advanced Python-based steganography tool designed for securely 
 
 ### Clone the Repository  
 ```bash
-git clone  https://github.com/prince2313/ShadowByte.git
+git clone  https://github.com/PrinceTyagiSec/ShadowByte.git
 cd ShadowByte  
 ```
 
@@ -160,4 +160,4 @@ pip install -r requirements.txt
 **ShadowByte** is intended for **educational and ethical** purposes only. Do not use it for illegal activities.  
 
 📜 **License**: MIT License © 2025 **Prince Tyagi**  
-👤 **Creator**: [GitHub](https://github.com/prince2313) | [LinkedIn](https://www.linkedin.com/in/prince-tyagi1/)  
+👤 **Creator**: [GitHub](https://github.com/PrinceTyagiSec) | [LinkedIn](https://www.linkedin.com/in/prince-tyagi1/)  
