@@ -1,6 +1,6 @@
-# ShadowByte - Advanced Steganography Tool 🕵️‍♂️🔐  
+# CipherHide - Advanced Steganography Tool 🕵️‍♂️🔐  
 
-ShadowByte is an advanced Python-based steganography tool designed for securely embedding and extracting encrypted data within PNG images. It is optimized for cybersecurity professionals, forensic analysts, and privacy-conscious users who need secure data hiding techniques.  
+CipherHide is an advanced Python-based steganography tool designed for securely embedding and extracting encrypted data within PNG images. It is optimized for cybersecurity professionals, forensic analysts, and privacy-conscious users who need secure data hiding techniques.  
 
 ## ✨ Features  
 ✅ **Multi-Layer Steganography** – Securely hide text and files inside PNG images.  
@@ -14,8 +14,8 @@ ShadowByte is an advanced Python-based steganography tool designed for securely 
 
 ### Clone the Repository  
 ```bash
-git clone  https://github.com/PrinceTyagiSec/ShadowByte.git
-cd ShadowByte  
+git clone  https://github.com/PrinceTyagiSec/CipherHide.git
+cd CipherHide  
 ```
 
 ### Install Dependencies  
@@ -30,11 +30,11 @@ pip install -r requirements.txt
 
 Run the following command to see available options:  
 ```bash
-python ShadowByte.py -h
+python CipherHide.py -h
 ```
 ```
-PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\ShadowByte> python .\ShadowByte.py -h
-usage: ShadowByte.py [-h] {encode,decode,bruteforce} ...
+PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\CipherHide> python .\CipherHide.py -h
+usage: CipherHide.py [-h] {encode,decode,bruteforce} ...
 
 Advanced Steganography Tool
 
@@ -50,11 +50,11 @@ options:
 
 ### 🔹 Encode (Hide Data)  
 ```bash
-python ShadowByte.py encode -h
+python CipherHide.py encode -h
 ```
 ```
-PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\ShadowByte> python .\ShadowByte.py encode -h
-usage: ShadowByte.py encode [-h] [--key KEY] [--data DATA] [--output OUTPUT] image_path
+PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\CipherHide> python .\CipherHide.py encode -h
+usage: CipherHide.py encode [-h] [--key KEY] [--data DATA] [--output OUTPUT] image_path
 
 positional arguments:
   image_path       Path to the image file
@@ -67,7 +67,7 @@ options:
 ```
 Example Usage:
 ```bash
-python ShadowByte.py encode --key "my_secure_key" --data "secret.txt" --output "hidden.png" image.png
+python CipherHide.py encode --key "my_secure_key" --data "secret.txt" --output "hidden.png" image.png
 ```
 This encrypts `secret.txt` and embeds it in `image.png`, saving the output as `hidden.png`.  
 
@@ -75,11 +75,11 @@ This encrypts `secret.txt` and embeds it in `image.png`, saving the output as `h
 
 ### 🔹 Decode (Extract Data)  
 ```bash
-python ShadowByte.py decode -h
+python CipherHide.py decode -h
 ```
 ```
-PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\ShadowByte> python .\ShadowByte.py decode -h
-usage: ShadowByte.py decode [-h] [--key KEY] image_path
+PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\CipherHide> python .\CipherHide.py decode -h
+usage: CipherHide.py decode [-h] [--key KEY] image_path
 
 positional arguments:
   image_path  Path to the encoded image
@@ -90,7 +90,7 @@ options:
 ```
 Example Usage:
 ```bash
-python ShadowByte.py decode hidden.png --key "my_secure_key"
+python CipherHide.py decode hidden.png --key "my_secure_key"
 ```
 This extracts and decrypts the hidden file if the correct key is provided.  
 
@@ -98,11 +98,11 @@ This extracts and decrypts the hidden file if the correct key is provided.
 
 ### 🔹 Brute-Force Attack (Recover Forgotten Keys)  
 ```bash
-python ShadowByte.py bruteforce -h
+python CipherHide.py bruteforce -h
 ```
 ```
-PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\ShadowByte> python .\ShadowByte.py bruteforce -h
-usage: ShadowByte.py bruteforce [-h] --wordlist WORDLIST image_path
+PS C:\Users\Zero\Desktop\Python Projects\Red Team Projects\CipherHide> python .\CipherHide.py bruteforce -h
+usage: CipherHide.py bruteforce [-h] --wordlist WORDLIST image_path
 
 positional arguments:
   image_path           Path to the encoded image
@@ -113,7 +113,7 @@ options:
 ```
 Example Usage:
 ```bash
-python ShadowByte.py bruteforce hidden.png --wordlist passwords.txt
+python CipherHide.py bruteforce hidden.png --wordlist passwords.txt
 ```
 This tries multiple passwords from `passwords.txt` to recover the hidden data.  
 
@@ -157,7 +157,7 @@ pip install -r requirements.txt
 ```
 
 ## ⚠️ Disclaimer  
-**ShadowByte** is intended for **educational and ethical** purposes only. Do not use it for illegal activities.  
+**CipherHide** is intended for **educational and ethical** purposes only. Do not use it for illegal activities.  
 
 📜 **License**: MIT License © 2025 **Prince Tyagi**  
 👤 **Creator**: [GitHub](https://github.com/PrinceTyagiSec) | [LinkedIn](https://www.linkedin.com/in/prince-tyagi1/)  
